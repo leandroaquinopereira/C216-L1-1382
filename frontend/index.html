@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>C216-L1</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body background="img/background.jpeg">
+    <center>
+        <h1 id="txt_hello">CONTROLE DE ESTOQUE</h1>
+    </center> 
+
+    <h4>INSERIR</h4>
+    <label>Nome: <input type="text" id="input_inserir_nome"></label><br>
+    <label>Descricao: <input type="text" id="input_inserir_descricao"></label><br>
+    <label>Marca: <input type="text" id="input_inserir_marca"></label><br>
+    <label>Preco: <input type="text" id="input_inserir_preco"></label><br>
+    <button class="btn btn-success" id="btn_inserir">POST</button>
+
+    <h4>LISTAR</h4>
+    <button class="btn btn-primary" id="btn_listar">GET</button>
+    <div id="div_listar"></div>
+
+    <h4>ATUALIZAR</h4>
+    <label>Id: <input type="text" id="input_atualizar_id"></label><br>
+    <label>Nome: <input type="text" id="input_atualizar_nome"></label><br>
+    <label>Descricao: <input type="text" id="input_atualizar_descricao"></label><br>
+    <label>Marca: <input type="text" id="input_atualizar_marca"></label><br>
+    <label>Preco: <input type="text" id="input_atualizar_preco"></label><br>
+    <button class="btn btn-warning" id="btn_atualizar">PUT</button>
+
+    <h4>EXCLUIR</h4>
+    <label>Id: <input type="text" id="input_excluir_id"></label><br>
+    <button class="btn btn-danger" id="btn_excluir">DELETE</button>
+
+    <h4>Buscar</h4>
+    <label>Id: <input type="text" id="input_buscar_id"></label><br>
+    <button class="btn btn-primary" id="btn_buscar">GET</button>
+    <div id="div_listar"></div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

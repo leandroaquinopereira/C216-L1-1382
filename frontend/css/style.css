@@ -1,0 +1,22 @@
+body {
+    color: white;
+    text-align: left;
+    
+}
+
+h1 {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 100;
+}
+
+h4 {
+    font-family: arial;
+    text-align:left;
+    
+}
+
+label {
+    text-align:left;
+    font-family: arial;
+}
